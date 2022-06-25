@@ -5,7 +5,7 @@ using UnityEngine.Playables;
 
 namespace RPG.Cinematics
 {
-    public class SinematicTrigger : MonoBehaviour
+    public class CinematicTrigger : MonoBehaviour
     {
         private bool _alredyTriggered = false;
 

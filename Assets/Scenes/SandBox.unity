@@ -868,26 +868,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 356231325}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &486696511 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6269162469422932520, guid: 3c944274e7847c340a73f31b80740e4d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1732671567}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &486696512
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486696511}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.3
-  m_Height: 1.7
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!4 &492738873 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4576468306662311628, guid: 6b1b6dbc37d4970429f6a0d090d606da,
@@ -1521,6 +1501,7 @@ GameObject:
   - component: {fileID: 766350714}
   - component: {fileID: 766350715}
   - component: {fileID: 766350716}
+  - component: {fileID: 766350717}
   m_Layer: 2
   m_Name: Intro Sequance
   m_TagString: Untagged
@@ -1536,8 +1517,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766350710}
   m_LocalRotation: {x: -0, y: 0.02777386, z: -0, w: 0.99961424}
-  m_LocalPosition: {x: -25.25, y: 1.6, z: -3.57}
-  m_LocalScale: {x: 13.346532, y: 7.7907743, z: 1.2873}
+  m_LocalPosition: {x: -25.25, y: 2.63, z: -4.2}
+  m_LocalScale: {x: 11.373114, y: 4.7476234, z: 1.2873}
   m_Children: []
   m_Father: {fileID: 1136359174}
   m_RootOrder: 0
@@ -1624,7 +1605,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 766350710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034d64b3ee3d5264389213b7c86bf986, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d243b22bbb9bb349bce0a45e1b78423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &766350717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766350710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a2724aff1a7924cbbc9cc16d6e3e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &885642633
